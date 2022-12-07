@@ -1,0 +1,327 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 Apr, 2022, 8:46:42 AM
+    Author     : Shivam
+*/
+
+            body{
+                
+                background-image: url(../img/adventure.jpg);
+                background-position:center;
+                background-size:cover;
+                font-family:sans-serif;
+                margin-top:20px;
+            }
+            .regform{
+                width:800px;
+                background-color:rgb(0,0,0,0.6);
+                margin:auto;
+                color:#FFFFFF;
+                text-align:center;
+                border-radius:15px 15px 0px 0px;I
+            }
+            .mane{
+                background-color:rgb(0,0,0,0.5);
+                width:800px;
+                margin:auto;
+            }
+            form{
+                padding:10px;
+            }
+            #name {
+                width:100%;
+                height:100px;
+            }
+            .uname{
+                position:relative;
+                left:200px;
+                top:-37px;
+                line-height:40px;
+                border-radius:6px;
+                padding:0 22px;
+                font-size:16px;
+            }
+            .name {
+                margin-left:25px;
+                margin-top:20px;
+                width:125px;
+                color:white;
+                font-size:20px;
+                font-weight:700;
+            }
+            .firstname{
+                position:relative;
+                left:200px;
+                top:-40px;
+                line-height:10px;
+                border-radius:6px;
+                padding:0 22px;
+                font-size:16px;
+            }
+            .lastname{
+                position:relative;
+                left:417px;
+                top:-64px;
+                line-height:10px;
+                border-radius:6px;
+                padding:0 22px;
+                font-size:16px;
+                color:#555;
+            }
+            .firstlabel{
+                position:relative;
+                color:#E5E5E5;
+                text-transform:capitalize;
+                font-size:14px;
+                left:203px;
+                top:-45px;
+            }
+            .lastlabel{
+                position:relative;
+                color:#E5E5E5;
+                text-transform:capitalize;
+                font-size:14px;
+                left:175px;
+                top:-45px;
+            }
+            .country{
+                position:relative;
+                left:200px;
+                top:-37px;
+                line-height:10px;
+                width:480px;
+                border-radius:6px;
+                padding:0 22px;
+                font-size:16px;
+                color:#555;
+            }
+            .firstinput{
+                position:relative;
+                left:200px;
+                top:-37px;
+                line-height:10px;
+                border-radius:6px;
+                padding:0 22px;
+                font-size:16px;
+                width:280px;
+            }
+            .firsthlabel{
+                position:relative;
+                color:#E5E5E5;
+                text-transform:capitalize;
+                font-size:14px;
+                left:-127px;
+                top:-5px;
+
+            }
+            .secondinput{
+                position:relative;
+                left:157px;
+                top:-37px;
+                line-height:10px;
+                border-radius:6px;
+                padding:0 22px;
+                font-size:16px;
+                color:#555;
+                width:125px;
+            }
+            .secondlabel{
+                position:relative;
+                color:#E5E5E5;
+                text-transform:capitalize;
+                font-size:14px;
+                left:-15px;
+                top:-5px;
+            }
+            .thirdinput{
+                position:relative;
+                left:200px;
+                top:-25px;
+                line-height:10px;
+                border-radius:6px;
+                padding:0 22px;
+                font-size:16px;
+            }
+            .thirdlabel{
+                position:relative;
+                color:#E5E5E5;
+                text-transform:capitalize;
+                font-size:14px;
+                left:-20px;
+                top:9px;
+            }
+            .fourthinput{
+                position:relative;
+                left:207px;
+                top:-25px;
+                line-height:10px;
+                border-radius:6px;
+                padding:0 22px;
+                font-size:16px;
+                color:#555;
+            }
+            .fourthlabel{
+                position:relative;
+                color:#E5E5E5;
+                text-transform:capitalize;
+                font-size:14px;
+                left:-20px;
+                top:9px;
+            }
+
+            .email{
+                position: relative;
+                left:200px;
+                top:-37px;
+                line-height: 10px;
+                width:480px;
+                border-radius: 6px;
+                font-size: 16px;
+                color: #555;
+            }
+            .code{
+                position:relative;
+                left:200px;
+                top:-37px;
+                line-height: 10px;
+                width:95px;
+                border-radius: 6px;
+                padding: 0 22px;
+                font-size: 16px;
+                color: #555;
+            }
+            .number{
+                position:relative;
+                left:200px;
+                top:-37px;
+                line-height: 10px;
+                width:255px;
+                border-radius: 6px;
+                padding: 0 22px;
+                font-size: 16px;
+                color: #555;
+            }
+            .area-code{
+                position:relative;
+                color:#E5E5E5;
+                text-transform:capitalize;
+                font-size:16px;
+                left:54px;
+                top:-4px;
+            }
+            .phone-number{
+                position:relative;
+                color:#E5E5E5;
+                text-transform:capitalize;
+                font-size:16px;
+                left:-100px;
+                top:-2px;
+            }
+            .option{
+                position:relative;
+                left:200px;
+                top:-37px;
+                width:532px;
+                height:40px;
+                border-radius: 6px;
+                font-size: 16px;
+                color: #555;
+                outline:none;
+                overflow:hidden;
+            } I
+            .option option{
+                font-size:20px;
+            }
+            #coustomer{
+                margin-left:25px;
+                color:white;
+                font-size:18px;
+            }
+            .radio{
+
+                padding-right:70px;
+                font-size:20px;
+                margin-left:25px;
+                margin-top:15px;
+                color:white;
+            }
+            .radio input{
+                width:20px;
+                height:20px;
+                border-radius:50%;
+                cursor:pointer;
+                outline:none; I
+            }
+            button{
+                background-color:#3BAF9F;
+                display:block;
+                margin:20px 0px 0px 20px;
+                text-align:center;
+                border-radius:12px;
+                border: 2px solid #366473;
+                padding:14px 110px;
+                outline:none;
+                color:white;
+                cursor:pointer;
+                transition:0.25px;
+            }
+            button:hover{
+                background-color:#5390F5;
+            }
+            .wrapper{
+                height: 300px;
+                width:300px;
+                position: relative;
+                border:5px solid #fff;
+                border-radius: 100%;
+                background-size: 100% 100%;
+                margin: auto;
+                overflow: hidden;
+            }
+            .file-upload-input{
+                position: absolute;
+                bottom: 0;
+                outline: none;
+                color: transparent;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 15px 120px;
+                cursor: pointer;
+                transition: 0.5s;
+                background: rgba(0,0,0,0.5);
+                opacity: 0.4;
+            }
+            .file-upload-input::-webkit-file-upload-button{
+                visibility: hidden;
+            }
+            .file-upload-input::before{
+                content:'Upload';
+                content:'\f030';
+                font-family: fontAwesome;
+                font-size: 50px;
+                color: #fff;
+                display: inline-block;
+                -webkit-user-select:none;
+            }
+            
+            .file-upload-input::after{
+                content: 'Update';
+                font-family: 'arial';
+                font-weight: bold;
+                color:#fff;
+                display: block;
+                top:65px;
+                font-size: 14px;
+                position: absolute;
+            }
+            .file-upload-input:hover{
+                opacity:1;
+            }
+       
+   
+    
+   

@@ -1,0 +1,227 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 Mar, 2022, 8:30:24 PM
+    Author     : 91960
+*/
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.welcome
+{
+    background-image: url(../img/Hotel.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.h1
+{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    z-index: 1;
+}
+ul li
+{
+    position: absolute;
+    border: 1px solid blueviolet;
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    opacity: 0;
+    background: blueviolet;
+}
+.square li{
+    top: 50vh;
+    left: 45vw;
+    animation: square 10S linear infinite;
+}
+.square li:nth-child(2)
+{
+    top: 80vh;
+    left: 10vw;
+    animation-delay: 2s;
+}
+.square li:nth-child(3)
+{
+    top: 80vh;
+    left: 85vw;
+    animation-delay: 4s;
+}
+.square li:nth-child(4)
+{
+    top: 10vh;
+    left: 70vw;
+    animation-delay: 6s;
+}
+.square li:nth-child(5)
+{
+    top: 10vh;
+    left: 10vw;
+    animation-delay: 8s;
+}
+@keyframes square
+{
+    0%
+    {
+        transform: scale(0)rotateY(0deg);
+        opacity:1;
+        
+    }
+    100%
+    {
+        transform: scale(5)rotateY(1000deg);
+        opacity:0;
+        
+    }
+}
+.circle li
+{
+    bottom: 0;
+    left: 15vw;
+    animation: circle 10s linear infinite;
+}
+.circle li:nth-child(2)
+{
+    left: 35vw;
+    animation-delay: 2s;
+}
+.circle li:nth-child(3)
+{
+    left: 55vw;
+    animation-delay: 6s;
+}
+.circle li:nth-child(4)
+{
+    left: 75vw;
+    animation-delay: 4s;
+}
+.circle li:nth-child(5)
+{
+    left: 90vw;
+    animation-delay: 8s;
+}
+@keyframes circle
+{
+    0%
+    {
+        transform: scale(0)rotate(0deg);
+        opacity:1;
+        bottom:0;
+        border-radius: 0;
+    }
+    100%
+    {
+        transform: scale(5)rotate(1000deg);
+        opacity:0;
+        bottom:90vh;
+        border-radius: 50%;
+    }
+}
+.contain
+{
+    padding-left: 600px;
+    padding-top: 50px;
+}
+.contain .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.contain .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: url(../img/Hotel.jpg);
+}
+/*.contain form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}*/
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(70% / 2 - 20px);
+}
+.user-details .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: #9b59bd;
+}
+form .category{
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+.category label{
+    display: flex;
+}
+.change
+{
+    padding-right: 600px;
+    padding-top: 50px;
+}
+/*.category .dot{
+    height: 18px;
+    width: 18px;
+    background: red;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+}
+/*body {
+    background-image: url(../img/Home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+.dashboard {
+    width: 35%;
+    height: auto;
+    border: darkorange;
+    margin: 0 auto;
+    background-color: blue;
+}
+.dashboard input[type="button"]{
+    display: block;
+    border: #fff;
+    outline: none;
+    height:fit-content;
+    background:blue;
+    color:#fff;
+    font-size:medium;
+    border-radius: 20px;
+}*/
